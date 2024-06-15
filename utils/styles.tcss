@@ -1,0 +1,20 @@
+#results-container {
+  overflow: auto;
+  margin: 1 2;
+  scrollbar-size-vertical: 1;
+  scrollbar-background: black 10%;
+  scrollbar-background-active: black 10%;
+  scrollbar-background-hover: black 10%;
+  scrollbar-color: white 20%;
+  scrollbar-color-active: white 30%;
+  scrollbar-color-hover: white 30%;
+}
+
+#footer {
+}
+
+#input-field {
+  margin: 1 1;
+  border: round black 50%;
+  background: black 50%;
+}
