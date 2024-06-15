@@ -26,6 +26,7 @@ class DomainChecker(App):
     def action_submit_response(self):
         message = self.query_one(Input)
         self.lookup_word(message.value)
+        self.query_one("#input-field", Input).value = ""
 
     def action_clear(self):
         self.query_one("#results", Static).update("")
